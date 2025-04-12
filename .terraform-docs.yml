@@ -1,0 +1,30 @@
+formatter: "markdown table" # this is required
+
+content: |-
+  {{ .Header }}
+  
+  # tf-do-db
+  Provides a DigitalOcean Droplet resource. This can be used to create, modify, and delete Droplets.
+  
+  ## Examples
+
+  ```hcl
+  {{ include "_examples/postgresql/main.tf" }}
+  ```
+
+  {{ .Providers }}
+  {{ .Requirements }}
+  {{ .Modules }}
+  {{ .Resources }}
+  {{ .Inputs }}
+  {{ .Outputs }}
+
+output:
+  file: "README.md"
+  mode: replace
+  template: |-
+    {{ .Content }}
+
+sort:
+  enabled: true
+  by: required

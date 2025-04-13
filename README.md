@@ -75,7 +75,7 @@ module "postgresql" {
 
 | Name | Version |
 |------|---------|
-| <a name="provider_digitalocean"></a> [digitalocean](#provider\_digitalocean) | 2.50.0 |
+| <a name="provider_digitalocean"></a> [digitalocean](#provider\_digitalocean) | >= 2.29.0 |
 ## Requirements
 
 | Name | Version |
@@ -86,7 +86,7 @@ module "postgresql" {
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_labels"></a> [labels](#module\_labels) | git@github.com:dumberdore/tf-do-labels | n/a |
+| <a name="module_labels"></a> [labels](#module\_labels) | git@github.com:Cozmotec-CD/tf-do-labels | n/a |
 ## Resources
 
 | Name | Type |

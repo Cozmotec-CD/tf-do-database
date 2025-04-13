@@ -2,7 +2,7 @@
 #Module      : LABEL
 #Description : Terraform label module variables.
 module "labels" {
-  source      = "git@github.com:Cozmotec-CD/tf-do-labels"
+  source      = "github.com/Cozmotec-CD/tf-do-labels"
   name        = var.name
   environment = var.environment
   managedby   = var.managedby
